@@ -1,0 +1,20 @@
+{
+  "name": "git_bootstrap_les_chefs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfilali/projet_git_bootstrap_les_chefs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sfilali/projet_git_bootstrap_les_chefs/issues"
+  },
+  "homepage": "https://github.com/sfilali/projet_git_bootstrap_les_chefs#readme"
+}
