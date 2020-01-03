@@ -7,7 +7,10 @@
   font-family: "fontawesome";
   src: url("../../public/fonts/fontawesome-webfont.woff");
 }
-@font;
+@font-face {
+  font-family: "courgette";
+  src: url("../../public/fonts/courgette/Courgette-Regular.ttf");
+}
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -9884,8 +9887,25 @@ h3 {
     border-color: #dee2e6;
   }
 }
-body {
-  font-family: flaticon;
+header {
+  background-color: black;
+}
+header nav .navbar-nav a {
+  display: flex;
+  align-content: center;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+header nav .navbar-nav a span {
+  padding: 15px 30px;
+  color: white;
+  font-weight: bold;
+}
+header nav .navbar-nav .active {
+  background-color: #c42d40;
+}
+header nav .logo {
+  padding: 20px 70px;
 }
 
 /*# sourceMappingURL=style.css.map */
