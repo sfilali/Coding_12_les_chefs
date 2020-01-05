@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sfilali/projet_git_bootstrap_les_chefs/issues"
   },
-  "homepage": "https://github.com/sfilali/projet_git_bootstrap_les_chefs#readme"
+  "homepage": "https://github.com/sfilali/projet_git_bootstrap_les_chefs#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0"
+  }
 }
