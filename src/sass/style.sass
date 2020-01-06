@@ -6,6 +6,7 @@ h2,h3
     text-align: center
 
 @import "./header.sass"
+@import "./section1_sm.sass"
 .sm
     background-image: url(../../public/images/main_bg.jpg)
     padding: 60px 150px
@@ -43,52 +44,53 @@ h2,h3
         p
             padding: 50px 470px
             text-align: center
-    .row
-        margin: 0 10px
-
-        .coli
-            width: 260px
-            padding: 0
-            border-right: 1px solid #cccccc
-            border-bottom: 1px solid #cccccc
+    
+    .contenu
+        display: flex
+        .icones
             .menu_x
                 display: flex
                 flex-direction: column
                 align-items: center
-                margin: 20px
-                
-                h3
-                     font-size: xx-large           
+                padding: 10px 50px
+                border-bottom: 1px solid #cccccc 
+
                 img
-                    height: 80px
-                    width: 80px
+                    height: 90px
+                    width: 90px
                     margin: 10px
-        .active
-            border-right: 5px solid var(--red)
-        .col-5
-            padding: 0
-            .align
-                display: flex
-                align-items: center
-                padding: 20px 0
-                margin: 0 20px
-                border-bottom: 2px #eaeaea dotted
-            img
-                height: 150px
-                width: 150px
-                border-radius: 50%
-                border: 6px solid #eaeaea
-            p
-                padding: 0 20px
-            .bold
-                font-weight: bold
-            span
-                background-color: #efefef
-                color: var(--red)
-                font-weight: bold
-                font-size: x-large
-                display: inline-table
-                padding: 0 25px
-        &:last-of-type
-            .coli
-                border-bottom: none
+                h3
+                    font-size: xx-large 
+                &:last-of-type
+                    border-bottom: none
+            .active
+                border-right: 5px solid var(--red)
+            
+        .rows
+            border-left: 1px solid #cccccc
+            .row
+                margin: 0 10px
+                .col-6
+                    padding: 0
+                    .align
+                        display: flex
+                        align-items: center
+                        padding: 20px 0
+                        margin: 0 20px
+                        border-bottom: 2px #eaeaea dotted
+                    img
+                        height: 150px
+                        width: 150px
+                        border-radius: 50%
+                        border: 6px solid #eaeaea
+                    p
+                        padding: 0 20px
+                    .bold
+                        font-weight: bold
+                    span
+                        background-color: #efefef
+                        color: var(--red)
+                        font-weight: bold
+                        font-size: x-large
+                        display: inline-table
+                        padding: 0 25px
