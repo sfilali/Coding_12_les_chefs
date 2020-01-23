@@ -10137,11 +10137,13 @@ header .bottom {
 }
 .sm {
   background-image: url(../../public/images/main_bg.jpg);
-  padding: 60px 150px;
+  padding: 50px 0;
 }
 .sm .border {
+  width: 85%;
   background-color: white;
   position: relative;
+  margin: auto;
 }
 .sm .border .box {
   position: absolute;
@@ -10245,6 +10247,22 @@ header .bottom {
   font-size: x-large;
   display: inline-table;
   padding: 0 25px;
+}
+
+@media (max-width: 768px) {
+  .sm .border .box {
+    width: 20%;
+  }
+  .sm h2 {
+    font-size: xx-large;
+  }
+  .sm h2 span {
+    font-size: 40px;
+  }
+  .sm #story p {
+    padding: 30px;
+    font-size: medium;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
